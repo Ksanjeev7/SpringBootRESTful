@@ -1,18 +1,18 @@
 # SpringBootRESTful
 
-***This repository contains the source code for a simple CRUD (Create, Read, Update, Delete) REST API POSTMAN implemented in Java using Spring Boot and MySQL***.
+   ***This repository contains the source code for a simple CRUD (Create, Read, Update, Delete) REST API POSTMAN implemented in Java using Spring Boot and MySQL***.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+   - [Introduction](#introduction)
 
-- [Technologies Used](#technologies-used)
+   - [Technologies Used](#technologies-used)
 
-- [SetUp](#set-up)
+   - [SetUp](#set-up)
 
-- [Usage](#usage)
+   - [Usage](#usage)
 
-- [Contributing](#contributing)
+   - [Contributing](#contributing)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -20,55 +20,55 @@ The Spring REST API is a  Simple Backend Application that Provides CRUD Operatio
 
 ## Technologies Used   <a name="technologies-used"></a>
 
-- Java
+   - Java
 
-- Spring Boot
+   - Spring Boot
 
-- Spring Data JPA
+   - Spring Data JPA
 
-- MYSQL
+   - MYSQL
 
-- PostMan API
+   - PostMan API
 
 ## Set Up      <a name="set-up"></a>
 
-1.Clone the Repository
+1.Clone the Repository   
+ 
+ git clone: [[Click here](https://github.com/Ksanjeev7/SpringBootRESTful)]
 
-git clone [[click here](https://github.com/Ksanjeev7/SpringBootRESTful)]
+   2. Configure the Database  Connection in src/main/resources/application.properties.
 
-2. Configure the Database  Connection in src/main/resources/application.properties.
+   3. Build the Project:
 
-3. Build the Project:
+     ./mvnw clean package
 
-./mvnw clean package
+   4. Run the Application:
 
-4. Run the Application:
+     java -jar target/spring-rest-api.jar
 
-java -jar target/spring-rest-api.jar
-
-5. Access  the API endPoints using a tool like Postman or URl
+   5. Access  the API endPoints using a tool like Postman or URl
 
 ## Usage         <a name="usage"></a>
 
-- Use HTTP requests to interact with the API endpoints:
-   - POST    `/api/employees`:  Add a new employee.
-   - GET     `/api/employees`:  Retrieve all employee
-   - GET     `/api/employees/{id}`:  Retrieve an employee by ID.
-   - PUT     `/api/employees/{id}`:  Update an employee by ID.
-   - DELETE  `/api/employees/{id}`:  Delete an employee by ID.
+   - Use HTTP requests to interact with the API endpoints:
+      - POST       `/api/employees`:  Add a new employee.
+      - GET        `/api/employees`:  Retrieve all employee
+      - GET        `/api/employees/{id}`:  Retrieve an employee by ID.
+      - PUT        `/api/employees/{id}`:  Update an employee by ID.
+      - DELETE     `/api/employees/{id}`:  Delete an employee by ID.
 
- ## Contributing     <a name="contributing"></a>
+## Contributing     <a name="contributing"></a>
 
 Contributions are Welcome! If you'd like to contribute to this project , Please follow these steps
 
-1. Fork the Repository.
+   1. Fork the Repository.
 
-2. Create a new Branch (`git checkout -b feature-branch`).
+   2. Create a new Branch (`git checkout -b feature-branch`).
 
-3. Make your changes.
+   3. Make your changes.
 
-4. Commit your changes (`git commit -am 'Add new Feature'`).
+   4. Commit your changes (`git commit -am 'Add new Feature'`).
 
-5. Push to the branch (`git push origin feature -branch`).
+   5. Push to the branch (`git push origin feature -branch`).
 
-6. create a new Pull Request 
+   6. create a new Pull Request 
