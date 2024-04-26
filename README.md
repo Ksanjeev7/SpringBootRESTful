@@ -4,21 +4,21 @@
 
 ## Table of Contents
 
-- [Introduction](README.mdintroduction)
+- [Introduction](#introduction)
 
--[Technologies Used](Technologiesused)
+- [Technologies Used](#technologies-used)
 
--[SetUp](SetUp)
+- [SetUp](#set-up)
 
--[Usage](Usage)
+- [Usage](#usage)
 
--[Contributing](Contributing)
+- [Contributing](#contributing)
 
-## Introduction
+## Introduction  <a name="introduction"></a>
 
 The Spring REST API is a  Simple Backend Application that Provides CRUD Operations for Managing emloyee data.It exposes RESTFul endpoints to perform operations such as Adding new Employee, Retrieving Employee details, Updating Employee Information and Deleting Employees from the Database
 
-## Technologies Used
+## Technologies Used   <a name="technologies-used"></a>
 
 - Java
 
@@ -30,7 +30,7 @@ The Spring REST API is a  Simple Backend Application that Provides CRUD Operatio
 
 - PostMan API
 
-## Set Up
+## Set Up      <a name="set-up"></a>
 
 1.Clone the Repository
 
@@ -48,7 +48,7 @@ java -jar target/spring-rest-api.jar
 
 5. Access  the API endPoints using a tool like Postman or URl
 
-## Usage
+## Usage         <a name="usage"></a>
 
 - Use HTTP requests to interact with the API endpoints:
    - POST    `/api/employees`:  Add a new employee.
@@ -57,7 +57,7 @@ java -jar target/spring-rest-api.jar
    - PUT     `/api/employees/{id}`:  Update an employee by ID.
    - DELETE  `/api/employees/{id}`:  Delete an employee by ID.
 
- ## Contributing
+ ## Contributing     <a name="contributing"></a>
 
 Contributions are Welcome! If you'd like to contribute to this project , Please follow these steps
 
