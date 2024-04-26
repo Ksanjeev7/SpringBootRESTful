@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
-- [Introduction](Introduction)
+- [Introduction](README.mdintroduction)
 
--[[Technologies Used](Technologiesused)]
+-[Technologies Used](Technologiesused)
 
--[[SetUp](SetUp)]
+-[SetUp](SetUp)
 
--[[Usage](Usage)]
+-[Usage](Usage)
 
--[[Contributing](Contributing)]
+-[Contributing](Contributing)
 
 ## Introduction
 
