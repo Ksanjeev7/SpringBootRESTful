@@ -4,15 +4,15 @@
 
 ## Table of Contents
 
--[[Introduction](introduction)]
+-[[Introduction](Introduction)]
 
--[[Technologies Used](technologiesused)]
+-[[Technologies Used](Technologiesused)]
 
--[[SetUp](setup)]
+-[[SetUp](SetUp)]
 
--[[Usage](usage)]
+-[[Usage](Usage)]
 
--[[Contributing](contributing)]
+-[[Contributing](Contributing)]
 
 ## Introduction
 
